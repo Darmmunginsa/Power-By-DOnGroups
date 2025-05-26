@@ -187,8 +187,8 @@
         const content = `
   <div style="font-size:14px; width: 300px">
     <b>${locationName}</b><br>
-    <button onclick="navigator.clipboard.writeText('${url}').then(() => alert('คัดลอกลิงก์แล้ว'))">
-      📋 คัดลอกลิงก์
+    <button style="color: blue;" onclick="navigator.clipboard.writeText('${url}').then(() => alert('คัดลอกลิงก์แล้ว'))">
+  📋 คัดลอกลิงก์
     </button>
     <div id="street-view" style="width:100%;height:150px;margin-top:8px;"></div>
     <div style="margin-top:8px; font-size:12px; color:orange; font-weight:bold;">
